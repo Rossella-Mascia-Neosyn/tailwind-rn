@@ -1,0 +1,121 @@
+Arguments: 
+  /home/rossella/.nvm/versions/node/v18.17.0/bin/node /home/rossella/.nvm/versions/node/v18.17.0/bin/yarn remove @neosyn-ee/tailwind-rn
+
+PATH: 
+  /home/rossella/miniconda3/bin:/home/rossella/.nvm/versions/node/v18.17.0/bin:/home/rossella/miniconda3/bin:/home/rossella/.local/bin:/home/rossella/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rossella/Android/Sdk/emulator:/home/rossella/Android/Sdk/platform-tools:/home/rossella/.local/bin:/home/rossella/Android/Sdk/emulator:/home/rossella/Android/Sdk/platform-tools:/home/rossella/.maestro/bin:/home/rossella/.local/bin:/home/rossella/Android/Sdk/emulator:/home/rossella/Android/Sdk/platform-tools:/home/rossella/.maestro/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Failed to replace env in config: ${NPM_TOKEN}
+      at /home/rossella/.nvm/versions/node/v18.17.0/lib/node_modules/yarn/lib/cli.js:94933:13
+      at String.replace (<anonymous>)
+      at envReplace (/home/rossella/.nvm/versions/node/v18.17.0/lib/node_modules/yarn/lib/cli.js:94928:16)
+      at Function.normalizeConfig (/home/rossella/.nvm/versions/node/v18.17.0/lib/node_modules/yarn/lib/cli.js:31938:69)
+      at NpmRegistry.<anonymous> (/home/rossella/.nvm/versions/node/v18.17.0/lib/node_modules/yarn/lib/cli.js:31968:34)
+      at Generator.next (<anonymous>)
+      at step (/home/rossella/.nvm/versions/node/v18.17.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/rossella/.nvm/versions/node/v18.17.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+  	"name": "@neosyn-ee/tailwind-rn",
+  	"version": "4.2.7",
+  	"description": "Use Tailwind CSS in React Native projects",
+  	"license": "MIT",
+  	"repository": "Rossella-Mascia-Neosyn/tailwind-rn",
+  	"author": {
+  		"name": "Rossella Mascia",
+  		"email": "rossella.mascia@neosyn.it",
+  		"url": "https://neosyn.it"
+  	},
+  	"main": "dist",
+  	"bin": {
+  		"neosyn-ee/tailwind-rn": "dist/cli.js"
+  	},
+  	"engines": {
+  		"node": ">=12"
+  	},
+  	"scripts": {
+  		"build": "tsc",
+  		"test": "xo && tsc && ava"
+  	},
+  	"files": [
+  		"dist",
+  		"unsupported-core-plugins.js"
+  	],
+  	"keywords": [
+  		"tailwind",
+  		"tailwindcss",
+  		"react-native"
+  	],
+  	"dependencies": {
+  		"@commitlint/cli": "^17.7.1",
+  		"@commitlint/config-conventional": "^17.7.0",
+  		"@react-native-community/hooks": "^2.8.1",
+  		"chokidar": "^3.5.2",
+  		"color-string": "^1.9.0",
+  		"css": "^3.0.0",
+  		"css-mediaquery": "^0.1.2",
+  		"css-to-react-native": "^3.0.0",
+  		"husky": "^8.0.3",
+  		"meow": "^7.0.1"
+  	},
+  	"devDependencies": {
+  		"@sindresorhus/tsconfig": "^0.9.0",
+  		"@types/color-string": "^1.5.2",
+  		"@types/css": "^0.0.33",
+  		"@types/css-mediaquery": "^0.1.1",
+  		"@types/css-to-react-native": "^3.0.0",
+  		"@types/react": "^17.0.38",
+  		"@types/react-native": "^0.66.11",
+  		"@vdemedes/prettier-config": "^1.0.1",
+  		"ava": "^4.0.0",
+  		"dataloader": "^2.0.0",
+  		"delay": "^5.0.0",
+  		"execa": "^5.1.1",
+  		"postcss": "^8.4.5",
+  		"prettier": "^2.5.1",
+  		"react": "^18.2.0",
+  		"react-test-renderer": "^18.2.0",
+  		"tailwindcss": "3.3.3",
+  		"tempy": "^1.0.1",
+  		"typescript": "^4.5.4",
+  		"xo": "^0.39.1"
+  	},
+  	"peerDependencies": {
+  		"react-native": "*",
+  		"tailwindcss": "^3.0.0"
+  	},
+  	"prettier": "@vdemedes/prettier-config",
+  	"xo": {
+  		"prettier": true,
+  		"rules": {
+  			"import/extensions": "off",
+  			"import/no-extraneous-dependencies": [
+  				"error",
+  				{
+  					"peerDependencies": true
+  				}
+  			]
+  		},
+  		"settings": {
+  			"import/ignore": [
+  				"react-native"
+  			]
+  		}
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

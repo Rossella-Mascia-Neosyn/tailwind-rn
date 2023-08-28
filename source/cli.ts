@@ -7,7 +7,7 @@ import buildTailwind from './build';
 const cli = meow(
 	`
 	Usage
-	  $ @neosyn-ee/tailwind-rn [options]
+	  $ tailwind-rn [options]
 
 	Options
 	  -i, --input    Path to CSS file that Tailwind generates (default: tailwind.css)

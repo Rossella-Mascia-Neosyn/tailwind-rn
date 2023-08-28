@@ -11,7 +11,7 @@
 	},
 	"main": "dist",
 	"bin": {
-		"neosyn-ee/tailwind-rn": "dist/cli.js"
+		"tailwind-rn": "dist/cli.js"
 	},
 	"engines": {
 		"node": ">=12"
