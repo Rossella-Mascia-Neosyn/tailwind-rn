@@ -7,7 +7,7 @@ const meow = require("meow");
 const build_1 = require("./build");
 const cli = meow(`
 	Usage
-	  $ tailwind-rn [options]
+	  $ @neosyn-ee/tailwind-rn [options]
 
 	Options
 	  -i, --input    Path to CSS file that Tailwind generates (default: tailwind.css)
@@ -18,12 +18,12 @@ const cli = meow(`
         input: {
             type: 'string',
             alias: 'i',
-            default: 'tailwind.css'
+            default: 'src/styles/tailwind.css'
         },
         output: {
             type: 'string',
             alias: 'o',
-            default: 'tailwind.json'
+            default: 'src/styles/tailwind.json'
         },
         watch: {
             type: 'boolean',
