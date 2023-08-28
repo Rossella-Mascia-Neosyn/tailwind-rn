@@ -1,6 +1,6 @@
 {
 	"name": "@neosyn-ee/tailwind-rn",
-	"version": "4.2.4",
+	"version": "4.2.5",
 	"description": "Use Tailwind CSS in React Native projects",
 	"license": "MIT",
 	"repository": "Rossella-Mascia-Neosyn/tailwind-rn",
