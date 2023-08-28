@@ -3,11 +3,11 @@
 	"version": "4.2.0",
 	"description": "Use Tailwind CSS in React Native projects",
 	"license": "MIT",
-	"repository": "vadimdemedes/tailwind-rn",
+	"repository": "Rossella-Mascia-Neosyn/tailwind-rn",
 	"author": {
-		"name": "Vadim Demedes",
-		"email": "vdemedes@gmail.com",
-		"url": "https://vadimdemedes.com"
+		"name": "Rossella Mascia",
+		"email": "rossella.mascia@neosyn.it",
+		"url": "https://neosyn.it"
 	},
 	"main": "dist",
 	"bin": {
