@@ -1,6 +1,6 @@
 {
 	"name": "@neosyn-ee/tailwind-rn",
-	"version": "4.2.6",
+	"version": "4.2.7",
 	"description": "Use Tailwind CSS in React Native projects",
 	"license": "MIT",
 	"repository": "Rossella-Mascia-Neosyn/tailwind-rn",
@@ -11,7 +11,7 @@
 	},
 	"main": "dist",
 	"bin": {
-		"@neosyn-ee/tailwind-rn": "dist/cli.js"
+		"neosyn-ee/tailwind-rn": "dist/cli.js"
 	},
 	"engines": {
 		"node": ">=12"
